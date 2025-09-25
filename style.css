@@ -120,9 +120,27 @@ header {
  /* card */
 .card {
     background-color: var(--card);
-    padding: 14px;
+    padding: 40px;
     border-radius: 14px;
     box-shadow: 0 6px 18px rgba (15, 23, 42, 0.06);
+
+}
+/* project */
+.div3 {
+    display: grid;
+    grid-template-columns: 2 1fr;
+    gap: 106px; 
+}
+.div4 {
+     display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 8px;
+}
+.div5 a {
+    margin-left: 8px;
+    color: var(--accent);
+    font-weight: 600; 
 
 }
  /* responsive adjustment */
