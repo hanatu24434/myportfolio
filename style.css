@@ -111,6 +111,7 @@ header {
 
  }
  h2 {
+    margin-bottom: 100px;
     margin: 0 0 12px;
     font-size: 20px;
  }
@@ -126,7 +127,7 @@ header {
 
 }
 /* project */
-.div3 {
+.projectoverall {
     display: grid;
     grid-template-columns: 2 1fr;
     gap: 106px; 
