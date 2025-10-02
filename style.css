@@ -50,6 +50,7 @@ a:link {
 }   
 .navbar {
      background-color: #05394e;
+    color: white;
     display: flex;
     flex-direction: row-;
     justify-content: flex-end;
@@ -71,6 +72,8 @@ a:link {
 
 .navlist li{
     list-style-type: none;
+    
+    
 }
 .sec1 {
     display: flex;
@@ -102,7 +105,7 @@ a:link {
     color: var(--muted); 
 } */
 .btn {
-    margin-left: 400px;
+    margin-left: 350px;
     display: inline-block;
     padding: 10px 16px;
     background:var(--accent); 
@@ -119,6 +122,8 @@ a:link {
     border-radius: 50%;
     /* how the image fit into the container */
     object-fit: fill;
+    margin-left: 320px;
+    margin-top: 50px;
     
 
  }
@@ -129,11 +134,8 @@ a:link {
     box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
  }
  h2 {
-       background-color: #41c4f6;
-    /* background-color: #05394e; */
+    background-color: #17a0cd;
     text-align: center;
-    /* margin-bottom: 80px; 
-    /* margin: 0 0 12px; */
     font-size: 20px;
     padding: 50px;
     width: 100%;
