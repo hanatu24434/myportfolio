@@ -5,34 +5,37 @@
        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-
         <header>WELCOME TO MY PORTFOLIO!</header>
         <nav class="navbar">
             <ul class="navlist">
                 <li><a href="#ABOUTME" class="cca">ABOUTME</a></li>
                 <li><a href="#project" class="cca">PROJECT</a></li>
-                <li>SKILLS</li>
-                <li>CONTACT</li>
+                <li><a href="#skills" class="cca">SKILLS</a></li>
+                <li><a href="#contact" class="cca">CONTACT</a></li>
             </ul>
         </nav>
         <div class="container">
         <section class="sec1">
+            <div class="card">
             <div class="div1-text">
-              <h1>hannatu A. - aspiring web developer</h1>
-              <p class="para-text">i build small,useful web design apps and learning projects. currently 
+              <h1>Hannatu A. - <br> Aspiring web <br> Developer</h1>
+              <p>I build small,useful web design apps and learning projects. currently 
                 learning front-end web development with the aim of becoming a full-stack web developer.
                 </p>
                 <a class="btn" href="#">view my project</a>
             </div>
+            
             <div class="div2">
                 <img src="images/pic1.jpg" alt="my pics" class="mypic">
             </div>
+            </div>
         </section>
         <!-- ABOUT -->
+                     
          <section class="sec2" id="ABOUTME">
-            <h2>About me</h2>
+                                 <h2>About me</h2>
             <div class="card">
-                <p>i started learning coding in 2025 and enjoy turning ideas 
+                <p>I started learning coding in 2025 and enjoy turning ideas 
                     into working website. i love practicing by building small project
                      like to-do app, calculator, and simple games. my goal is to 
                      become a full-stack developer.</p>
@@ -41,38 +44,48 @@
          </section>
          <!-- PROJECT -->
           <section class="sec3" id="project">
-          <h2>selected project</h2>
+          <h2>View My project</h2>
           <div class="projectoverall">
             <!-- project 1 -->
+            
              <article class="card">
                 
-                   <iframe source src="video/vid2.mp4"></iframe>
+                   <video controls width="500" height="300">
+                    <source src="video/vid2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                   </video>
                 
                  <!--<img src="images/pic1.jpg" alt="project1"> -->
                  
                 </video>
-                <h3>neuroscience website</h3>
+               
+                <h3>Neuroscience website</h3>
                 <p class="para-text">HTML  :  CSS : javascript</p>
                 <div class="div4">
-                    <p class="para-text">a  simple neuroscience web page
-                        that provides information about the brain and its functions.
-                        designed using html and css with some javascript for interactivity.
+                    <p >A simple neuroscience web page<br>
+                        that provides information about the brain and its functions.<br>
+                        designed using html and css <br>with some javascript for interactivity.
                     </p>
                     <div class="div5">
                         <a href="https://hanatu24434.github.io/Neuroanatomy/">live</a>
                         <a href="https://hanatu24434.github.io/Neuroanatomy/">code</a>
                     </div>
                 </div>
-                
+        
              </article>
                 <!-- project 2 -->
+                 
                  <article class="card">
-                    <iframe source src="video/vid1.mp4"></iframe>
+                    
+                   <video controls width="500" height="300">
+                    <source src="video/vid1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                   </video>
                     <h3>survey  form</h3>
                     <p  class="para-text">HTML </p>
                     <div class="div4">
-                        <p class="para-text"> A survey form used to gather information 
-                            from users about their experience with a product or service.
+                        <p> A survey form used to gather information 
+                            from users, <BR> about their experience with a product or service.<BR>
                             designed using html for the structure.
                         </p>
                         <div class="div5">
@@ -83,20 +96,45 @@
                  </article>
                  <!-- project3 -->
                   <article class="card">
-                    <img src="images/pic2.png" alt="project3" width="300px" height="200px">
-                    <h3> confidential EMAIL</h3>
+                    <img src="images/pic2.png" alt="project3" width="500px" height="300px">
+                    <h3> Confidential EMAIL</h3>
                     <P class="para-text"> HTML  :  CSS</P>
                     <div class="div4">
-                        <p class="para-text"> A simple confidential email design using HTML and CSS.</p>
+                        <p class="para-text2"> A simple confidential email design using HTML and CSS.</p>
                         <div class="div5">
                             <a href="https://hanatu24434.github.io/email/">live</a>
                             <a href="https://hanatu24434.github.io/email/">code</a>
                         </div>
                     </div>
                   </article>
-          
+                </div>
 </section>
-        </div>
-        
+        <!-- skills -->
+         <section id="skills" class="sec4">
+            <h2>SKILLS</h2>
+            <div class="card">
+             <div class="skills">
+
+            <span class="skill">HTML</span>
+             <span class="skill">CSS</span>
+              <span class="skill">javascript</span>
+               <span class="skill">Git & Github </span>
+               <span class="skill">Responsive design</span>
+               </div>
+            </div>
+         </section>
+         <!-- contact -->
+          <section id="contact">
+            <h2>CONTACT</h2>
+            <div class="contact-grid">
+                <div class="card">
+                    <p class="muted">prefer email?
+                        <strong>hannatuaforolagba@gmail.com</strong></p>
+                        <p class="muted">or find me on Github / linkedin</p>
+                    <p>GitHub: <a href="https://github.com/hanatu24434" class="contact-links">github.com/hanatu</a></p>
+                     <p>LinKedln: <a href="https://www.linkedin.com/in/" class="contact-links"> linkedln.com/in/hanatu</a></p>
+                </div>
+            </div>
+          </section>
     </body>
 </html>
